@@ -9,10 +9,6 @@ import dexLogo from '../assets/img/DexLogo.png';
 
 import { HashLink } from 'react-router-hash-link';
 
-import {
-    BrowserRouter as Router
-  } from "react-router-dom";
-  
 
 const Header =()=>{
     const [activeLink, setActiveLink] = useState('home');
@@ -36,7 +32,7 @@ const Header =()=>{
         setActiveLink(value);
       }
     return(
-        <Router>
+        <>
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
@@ -64,7 +60,7 @@ const Header =()=>{
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Router>
+    </>
     )
 }
 
