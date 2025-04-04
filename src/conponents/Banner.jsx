@@ -10,7 +10,7 @@ import samDiana from '../assets/img/SamDiana.png';
                 <Col xs={12} md={6} xl={6}>
                 <span className="tagline">Fight Cute, Play Fierce!</span>
                 <h1>{'Chronials'}<span className="wrap">!</span></h1>
-                <p>A battle field of the brave warriers protecting their land</p>
+                <p>A battle field of the brave warriors protecting their land</p>
                 <button onClick={()=>console.log('connect')}>Let's Play<ArrowRightCircle size={25}/></button>
                 </Col>
                 <Col xs={12} md={6} xl={6}>
