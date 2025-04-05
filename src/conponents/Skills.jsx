@@ -35,7 +35,7 @@ const Skills=()=>{
                 <Row>
                     <Col>
                     <div className="skill-bx">
-                        <h2>Swords</h2>
+                        <h2 className="text-blue-500">Swords</h2>
                         <p>A wide range of sward collection. choose the sword as per the power of your opponent</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">

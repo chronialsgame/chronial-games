@@ -5,11 +5,13 @@ const Footer =()=>{
     return(
         <footer className="footer">
     <Container>
-    <Row className="align-item-center justify-content-between">
-   
+    <Row>
+        <div> <h3>Copy Rights &copy; 2023. All rights reserved.</h3> </div>
+        <div> <h3>since 2025</h3> </div>
     </Row>
    
-</Container>
+    </Container>
+
         </footer>
 
         

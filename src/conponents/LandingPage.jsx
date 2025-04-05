@@ -4,10 +4,12 @@ import { Experience } from "./Experience";
 import { Suspense } from "react";
 import { Loader } from "./Loader";
 import '../styles/LandingPage.css';
+import { LandingButton } from "./LandingButton";
 
  const LandingPage = ()=>{
     return(
-        <Canvas className="landingPage" shadows camera={{ position: [0, 0, 8], fov: 42 }}>
+      <>
+       <Canvas className="landingPage" shadows camera={{ position: [0, 0, 8], fov: 42 }}>
             <Suspense fallback={<Loader/>}>
              <color attach="background" args={["#171720"]} />
             <fog attach="fog" args={["#171720",10,30]} />
@@ -17,6 +19,9 @@ import '../styles/LandingPage.css';
              </EffectComposer>
              </Suspense>
            </Canvas>
+           <LandingButton/>
+      </>
+       
     )
 
 }

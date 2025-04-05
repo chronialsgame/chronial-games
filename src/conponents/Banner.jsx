@@ -1,12 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
-import {ArrowRightCircle} from "react-bootstrap-icons"
+import {ArrowRightCircle, TypeH2} from "react-bootstrap-icons"
 import samDiana from '../assets/img/SamDiana.png';
 
  const Banner=()=>{
     return (
         <section className="banner" id="home"> 
         <Container>
-            <Row className="align-items-center">
+            <Row className="align-items-center ">
                 <Col xs={12} md={6} xl={6}>
                 <span className="tagline">Fight Cute, Play Fierce!</span>
                 <h1>{'Chronials'}<span className="wrap">!</span></h1>
