@@ -1,6 +1,6 @@
 /* From Uiverse.io by Nod3sRus */ 
 .loader {
-    position: fixed;
+    position: relative;
     width: 150px;
     height: 150px;
     background: transparent;
