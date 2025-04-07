@@ -1,6 +1,6 @@
 /* From Uiverse.io by Nod3sRus */ 
 .loader {
-    position: relative;
+    position: fixed;
     width: 150px;
     height: 150px;
     background: transparent;
@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    z-index:99999;
   }
   
   .loader::before {
