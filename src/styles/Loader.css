@@ -12,7 +12,6 @@
     justify-content: center;
     overflow: hidden;
     z-index:99999;
-    all:unset;
   }
   
   .loader::before {
